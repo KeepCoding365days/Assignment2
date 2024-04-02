@@ -1,5 +1,6 @@
 package com.example.assignment2
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -15,6 +16,8 @@ import com.example.assignment2.ui.theme.Assignment2Theme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        var i= Intent(applicationContext, rest_list::class.java);
+        startActivity(i);
         setContent {
             Assignment2Theme {
                 // A surface container using the 'background' color from the theme
