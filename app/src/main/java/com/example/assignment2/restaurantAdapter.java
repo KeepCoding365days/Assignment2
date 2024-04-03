@@ -9,10 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class restaurantAdapter extends RecyclerView.Adapter<restaurantAdapter.ViewHolder> {
-    ArrayList<Restaurant> restaurants;
-    public restaurantAdapter(ArrayList <Restaurant>list){
+    List<Restaurant> restaurants;
+    public restaurantAdapter(List<Restaurant> list){
         restaurants=list;
     }
 

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Assignment#2</string>
+    <string name="Add">Add</string>
+    <string name="AddRest">Add New Restaurant</string>
 </resources>
